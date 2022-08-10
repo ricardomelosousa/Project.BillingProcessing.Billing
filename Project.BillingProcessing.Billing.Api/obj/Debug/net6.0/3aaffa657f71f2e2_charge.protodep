@@ -1,3 +1,0 @@
-obj\Debug\net6.0/Charge.cs \
-obj\Debug\net6.0/ChargeGrpc.cs: C:/Users/ricardo.sousa/.nuget/packages/grpc.tools/2.40.0/build/native/include/google/protobuf/timestamp.proto\
- ../../Charge/Project.BillingProcessing.Charge.Api/Photos/charge.proto
