@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "H17Sqhjs+XUQKhojRskfEWuFywJ4XVUjCZoCfgBI6zXXDF7uWMZPQ0tzIlwOOu/D46KsHMI4iwzgYIDvbxjACg==",
+  "dgSpecHash": "CiPlH4NdsYSk5ZTloeGLbM3UtE+M45Lhzrr7GsdoT3hRyp/QkxrGPKx7z7fH4PeFPadlY54crhPHERp7nTI74w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricardo.sousa\\Desktop\\Projeto Micros\\Billing\\Project.BillingProcessing.Billing.Api\\Project.BillingProcessing.Billing.Api.csproj",
   "expectedPackageFiles": [
@@ -26,11 +26,13 @@
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.3\\microsoft.extensions.primitives.3.0.3.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

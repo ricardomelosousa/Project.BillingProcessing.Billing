@@ -3,17 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.BillingProcessing.Billing.Api", "Project.BillingProcessing.Billing.Api\Project.BillingProcessing.Billing.Api.csproj", "{9266CC79-69D0-48A5-9216-003CED3C64E9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CEB22378-2061-4D55-B6CC-B802971448E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3DC662FA-AF94-4F5C-9067-5841F541E14B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.BillingProcessing.Billing.Domain", "Project.BillingProcessing.Billing.Domain\Project.BillingProcessing.Billing.Domain.csproj", "{1A801F4D-5C89-4B55-9EC3-CFF9DA2079D5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.BillingProcessing.Billing.Infra", "Project.BillingProcessing.Billing.Infra\Project.BillingProcessing.Billing.Infra.csproj", "{4A36A3B6-CC47-46C0-8B93-B409E2E35E0E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.BillingProcessing.Billing.Test", "Project.BillingProcessing.Billing.Test\Project.BillingProcessing.Billing.Test.csproj", "{6B40A2CE-AA8B-4279-A470-315D3C44FCB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.BillingProcessing.Worker", "Project.BillingProcessing.Worker\Project.BillingProcessing.Worker.csproj", "{CE7CE3BD-4A07-4EDE-B74A-80B7162CD3B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,31 +17,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9266CC79-69D0-48A5-9216-003CED3C64E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9266CC79-69D0-48A5-9216-003CED3C64E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9266CC79-69D0-48A5-9216-003CED3C64E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9266CC79-69D0-48A5-9216-003CED3C64E9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A801F4D-5C89-4B55-9EC3-CFF9DA2079D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A801F4D-5C89-4B55-9EC3-CFF9DA2079D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A801F4D-5C89-4B55-9EC3-CFF9DA2079D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A801F4D-5C89-4B55-9EC3-CFF9DA2079D5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A36A3B6-CC47-46C0-8B93-B409E2E35E0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A36A3B6-CC47-46C0-8B93-B409E2E35E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A36A3B6-CC47-46C0-8B93-B409E2E35E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A36A3B6-CC47-46C0-8B93-B409E2E35E0E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6B40A2CE-AA8B-4279-A470-315D3C44FCB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6B40A2CE-AA8B-4279-A470-315D3C44FCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B40A2CE-AA8B-4279-A470-315D3C44FCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B40A2CE-AA8B-4279-A470-315D3C44FCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE7CE3BD-4A07-4EDE-B74A-80B7162CD3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE7CE3BD-4A07-4EDE-B74A-80B7162CD3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE7CE3BD-4A07-4EDE-B74A-80B7162CD3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE7CE3BD-4A07-4EDE-B74A-80B7162CD3B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9266CC79-69D0-48A5-9216-003CED3C64E9} = {CEB22378-2061-4D55-B6CC-B802971448E6}
-		{1A801F4D-5C89-4B55-9EC3-CFF9DA2079D5} = {CEB22378-2061-4D55-B6CC-B802971448E6}
-		{4A36A3B6-CC47-46C0-8B93-B409E2E35E0E} = {CEB22378-2061-4D55-B6CC-B802971448E6}
 		{6B40A2CE-AA8B-4279-A470-315D3C44FCB8} = {3DC662FA-AF94-4F5C-9067-5841F541E14B}
+		{CE7CE3BD-4A07-4EDE-B74A-80B7162CD3B3} = {CEB22378-2061-4D55-B6CC-B802971448E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18201D51-C237-4D91-B002-4E380AE27343}

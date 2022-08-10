@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Project.BillingProcessing.Customer.Api.Controllers
+namespace Project.BillingProcessing.Billing.Api.Controllers
 {
     public class BillingsController : ControllerBase
     {

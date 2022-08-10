@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Project.BillingProcessing.Worker-966298F7-E5F5-4C96-9063-18444AD12E94</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.18.0" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.40.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.40.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Service\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="..\..\Charge\Project.BillingProcessing.Charge.Api\Photos\charge.proto" GrpcServices="Client">
+      <Link>Protos\charge.proto</Link>
+    </Protobuf>
+    <Protobuf Include="..\..\Customer\Project.BillingProcessing.Customer\Project.BillingProcessing.Customer.Api\Photos\customer.proto" GrpcServices="Client">
+      <Link>Protos\customer.proto</Link>
+    </Protobuf>
+  </ItemGroup>
+</Project>
