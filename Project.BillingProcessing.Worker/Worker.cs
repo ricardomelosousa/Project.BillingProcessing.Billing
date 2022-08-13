@@ -37,7 +37,7 @@ namespace Project.BillingProcessing.Worker
                             _logger.LogCritical("Erro ao criar a cobrança: " + response[i], ex.Message);
 
                         }
-                    }
+                    }                    
                     await Task.Delay(TimeSpan.FromMinutes(configuration.GetValue<int>("TimerForExecutionCallCustomers")), stoppingToken);
                 }
                 catch (Exception ex)
