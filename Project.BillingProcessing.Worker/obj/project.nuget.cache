@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Pp3UH/Ocx3Ip9nDS/rw8jC0TaaUTYIix3tFht0CnWOZ9IBOVXKMjQm6u4nLjqfDUDJzfPt9PdWuIa7odjoLmIw==",
+  "dgSpecHash": "GtE91vZWAwdEEVmKJZ/6Z4ltOS47p/iYN/+xkSA1B9QCWR/H2Zy5ncytnEKGYywqm93KRhgEGlUzCK6/cIbOAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ricardo.sousa\\Desktop\\Projeto Micros\\Billing\\Project.BillingProcessing.Worker\\Project.BillingProcessing.Worker.csproj",
+  "projectFilePath": "C:\\Wgit\\Billing\\Project.BillingProcessing.Worker\\Project.BillingProcessing.Worker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\google.protobuf\\3.18.0\\google.protobuf.3.18.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\grpc.core.api\\2.40.0\\grpc.core.api.2.40.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\grpc.net.client\\2.40.0\\grpc.net.client.2.40.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\grpc.net.clientfactory\\2.40.0\\grpc.net.clientfactory.2.40.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\grpc.net.common\\2.40.0\\grpc.net.common.2.40.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\grpc.tools\\2.40.0\\grpc.tools.2.40.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
@@ -36,12 +39,19 @@
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\ricardo.sousa\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -48,24 +48,24 @@ namespace GrpcChargeApi {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcChargeApi.GetChargeByParameterRequest> __Marshaller_chargeProtoService_V1_GetChargeByParameterRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcChargeApi.GetChargeByParameterRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcChargeApi.ChargeMode> __Marshaller_chargeProtoService_V1_ChargeMode = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcChargeApi.ChargeMode.Parser));
+    static readonly grpc::Marshaller<global::GrpcChargeApi.ChargeModel> __Marshaller_chargeProtoService_V1_ChargeModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcChargeApi.ChargeModel.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcChargeApi.CreateChargeResponse> __Marshaller_chargeProtoService_V1_CreateChargeResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcChargeApi.CreateChargeResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcChargeApi.GetChargeByParameterRequest, global::GrpcChargeApi.ChargeMode> __Method_GetChargeByParameter = new grpc::Method<global::GrpcChargeApi.GetChargeByParameterRequest, global::GrpcChargeApi.ChargeMode>(
+    static readonly grpc::Method<global::GrpcChargeApi.GetChargeByParameterRequest, global::GrpcChargeApi.ChargeModel> __Method_GetChargeByParameter = new grpc::Method<global::GrpcChargeApi.GetChargeByParameterRequest, global::GrpcChargeApi.ChargeModel>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetChargeByParameter",
         __Marshaller_chargeProtoService_V1_GetChargeByParameterRequest,
-        __Marshaller_chargeProtoService_V1_ChargeMode);
+        __Marshaller_chargeProtoService_V1_ChargeModel);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcChargeApi.ChargeMode, global::GrpcChargeApi.CreateChargeResponse> __Method_CreateCharge = new grpc::Method<global::GrpcChargeApi.ChargeMode, global::GrpcChargeApi.CreateChargeResponse>(
+    static readonly grpc::Method<global::GrpcChargeApi.ChargeModel, global::GrpcChargeApi.CreateChargeResponse> __Method_CreateCharge = new grpc::Method<global::GrpcChargeApi.ChargeModel, global::GrpcChargeApi.CreateChargeResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "CreateCharge",
-        __Marshaller_chargeProtoService_V1_ChargeMode,
+        __Marshaller_chargeProtoService_V1_ChargeModel,
         __Marshaller_chargeProtoService_V1_CreateChargeResponse);
 
     /// <summary>Service descriptor</summary>
@@ -102,42 +102,42 @@ namespace GrpcChargeApi {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::GrpcChargeApi.ChargeMode GetChargeByParameter(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::GrpcChargeApi.ChargeModel GetChargeByParameter(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetChargeByParameter(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::GrpcChargeApi.ChargeMode GetChargeByParameter(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::CallOptions options)
+      public virtual global::GrpcChargeApi.ChargeModel GetChargeByParameter(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetChargeByParameter, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.ChargeMode> GetChargeByParameterAsync(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.ChargeModel> GetChargeByParameterAsync(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetChargeByParameterAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.ChargeMode> GetChargeByParameterAsync(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.ChargeModel> GetChargeByParameterAsync(global::GrpcChargeApi.GetChargeByParameterRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetChargeByParameter, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::GrpcChargeApi.CreateChargeResponse CreateCharge(global::GrpcChargeApi.ChargeMode request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::GrpcChargeApi.CreateChargeResponse CreateCharge(global::GrpcChargeApi.ChargeModel request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateCharge(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::GrpcChargeApi.CreateChargeResponse CreateCharge(global::GrpcChargeApi.ChargeMode request, grpc::CallOptions options)
+      public virtual global::GrpcChargeApi.CreateChargeResponse CreateCharge(global::GrpcChargeApi.ChargeModel request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateCharge, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.CreateChargeResponse> CreateChargeAsync(global::GrpcChargeApi.ChargeMode request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.CreateChargeResponse> CreateChargeAsync(global::GrpcChargeApi.ChargeModel request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateChargeAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.CreateChargeResponse> CreateChargeAsync(global::GrpcChargeApi.ChargeMode request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::GrpcChargeApi.CreateChargeResponse> CreateChargeAsync(global::GrpcChargeApi.ChargeModel request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateCharge, null, options, request);
       }

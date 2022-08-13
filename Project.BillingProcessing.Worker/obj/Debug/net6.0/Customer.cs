@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace Project.BillingProcessing.Customer.Api.Photos {
+namespace GrpcCustomers {
 
   /// <summary>Holder for reflection information generated from customer.proto</summary>
   public static partial class CustomerReflection {
@@ -37,17 +37,17 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
             "bWVyQnlJZGVudGlmaWNhdGlvblJlcXVlc3QaFi5DdXN0b21lck1vZGVsUmVz",
             "cG9uc2USRQoOQ3JlYXRlQ3VzdG9tZXISFS5DdXN0b21lck1vZGVsUmVxdWVz",
             "dBocLkNyZWF0ZUN1c3RvbWVyTW9kZWxSZXNwb25zZRIsCgZHZXRBbGwSDS5D",
-            "dXN0b21lclRha2UaEy5SZXBseUN1c3RvbWVyTW9kZWxCMKoCLVByb2plY3Qu",
-            "QmlsbGluZ1Byb2Nlc3NpbmcuQ3VzdG9tZXIuQXBpLlBob3Rvc2IGcHJvdG8z"));
+            "dXN0b21lclRha2UaEy5SZXBseUN1c3RvbWVyTW9kZWxCEKoCDUdycGNDdXN0",
+            "b21lcnNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest), global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest.Parser, new[]{ "Identification" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel), global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel.Parser, new[]{ "CustomerModelResponse" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake), global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake.Parser, new[]{ "Take" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse), global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse.Parser, new[]{ "Name", "Identification", "State" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest), global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest.Parser, new[]{ "Name", "Identification", "State" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse), global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse.Parser, new[]{ "Id" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcCustomers.GetCustomerByIdentificationRequest), global::GrpcCustomers.GetCustomerByIdentificationRequest.Parser, new[]{ "Identification" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcCustomers.ReplyCustomerModel), global::GrpcCustomers.ReplyCustomerModel.Parser, new[]{ "CustomerModelResponse" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcCustomers.CustomerTake), global::GrpcCustomers.CustomerTake.Parser, new[]{ "Take" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcCustomers.CustomerModelResponse), global::GrpcCustomers.CustomerModelResponse.Parser, new[]{ "Name", "Identification", "State" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcCustomers.CustomerModelRequest), global::GrpcCustomers.CustomerModelRequest.Parser, new[]{ "Name", "Identification", "State" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcCustomers.CreateCustomerModelResponse), global::GrpcCustomers.CreateCustomerModelResponse.Parser, new[]{ "Id" }, null, null, null, null)
           }));
     }
     #endregion
@@ -66,7 +66,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Project.BillingProcessing.Customer.Api.Photos.CustomerReflection.Descriptor.MessageTypes[0]; }
+      get { return global::GrpcCustomers.CustomerReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -238,7 +238,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Project.BillingProcessing.Customer.Api.Photos.CustomerReflection.Descriptor.MessageTypes[1]; }
+      get { return global::GrpcCustomers.CustomerReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -266,11 +266,11 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
 
     /// <summary>Field number for the "customerModelResponse" field.</summary>
     public const int CustomerModelResponseFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse> _repeated_customerModelResponse_codec
-        = pb::FieldCodec.ForMessage(10, global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse.Parser);
-    private readonly pbc::RepeatedField<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse> customerModelResponse_ = new pbc::RepeatedField<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse>();
+    private static readonly pb::FieldCodec<global::GrpcCustomers.CustomerModelResponse> _repeated_customerModelResponse_codec
+        = pb::FieldCodec.ForMessage(10, global::GrpcCustomers.CustomerModelResponse.Parser);
+    private readonly pbc::RepeatedField<global::GrpcCustomers.CustomerModelResponse> customerModelResponse_ = new pbc::RepeatedField<global::GrpcCustomers.CustomerModelResponse>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse> CustomerModelResponse {
+    public pbc::RepeatedField<global::GrpcCustomers.CustomerModelResponse> CustomerModelResponse {
       get { return customerModelResponse_; }
     }
 
@@ -399,7 +399,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Project.BillingProcessing.Customer.Api.Photos.CustomerReflection.Descriptor.MessageTypes[2]; }
+      get { return global::GrpcCustomers.CustomerReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -571,7 +571,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Project.BillingProcessing.Customer.Api.Photos.CustomerReflection.Descriptor.MessageTypes[3]; }
+      get { return global::GrpcCustomers.CustomerReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -815,7 +815,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Project.BillingProcessing.Customer.Api.Photos.CustomerReflection.Descriptor.MessageTypes[4]; }
+      get { return global::GrpcCustomers.CustomerReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1059,7 +1059,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Project.BillingProcessing.Customer.Api.Photos.CustomerReflection.Descriptor.MessageTypes[5]; }
+      get { return global::GrpcCustomers.CustomerReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

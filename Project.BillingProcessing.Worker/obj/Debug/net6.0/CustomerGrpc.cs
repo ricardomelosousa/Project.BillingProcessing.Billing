@@ -7,7 +7,7 @@
 
 using grpc = global::Grpc.Core;
 
-namespace Project.BillingProcessing.Customer.Api.Photos {
+namespace GrpcCustomers {
   public static partial class CustomerProtoService
   {
     static readonly string __ServiceName = "CustomerProtoService";
@@ -46,20 +46,20 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest> __Marshaller_GetCustomerByIdentificationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest.Parser));
+    static readonly grpc::Marshaller<global::GrpcCustomers.GetCustomerByIdentificationRequest> __Marshaller_GetCustomerByIdentificationRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcCustomers.GetCustomerByIdentificationRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse> __Marshaller_CustomerModelResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse.Parser));
+    static readonly grpc::Marshaller<global::GrpcCustomers.CustomerModelResponse> __Marshaller_CustomerModelResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcCustomers.CustomerModelResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest> __Marshaller_CustomerModelRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest.Parser));
+    static readonly grpc::Marshaller<global::GrpcCustomers.CustomerModelRequest> __Marshaller_CustomerModelRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcCustomers.CustomerModelRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse> __Marshaller_CreateCustomerModelResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse.Parser));
+    static readonly grpc::Marshaller<global::GrpcCustomers.CreateCustomerModelResponse> __Marshaller_CreateCustomerModelResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcCustomers.CreateCustomerModelResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake> __Marshaller_CustomerTake = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake.Parser));
+    static readonly grpc::Marshaller<global::GrpcCustomers.CustomerTake> __Marshaller_CustomerTake = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcCustomers.CustomerTake.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel> __Marshaller_ReplyCustomerModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel.Parser));
+    static readonly grpc::Marshaller<global::GrpcCustomers.ReplyCustomerModel> __Marshaller_ReplyCustomerModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcCustomers.ReplyCustomerModel.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest, global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse> __Method_GetCustomerByIdentification = new grpc::Method<global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest, global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse>(
+    static readonly grpc::Method<global::GrpcCustomers.GetCustomerByIdentificationRequest, global::GrpcCustomers.CustomerModelResponse> __Method_GetCustomerByIdentification = new grpc::Method<global::GrpcCustomers.GetCustomerByIdentificationRequest, global::GrpcCustomers.CustomerModelResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetCustomerByIdentification",
@@ -67,7 +67,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
         __Marshaller_CustomerModelResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest, global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse> __Method_CreateCustomer = new grpc::Method<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest, global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse>(
+    static readonly grpc::Method<global::GrpcCustomers.CustomerModelRequest, global::GrpcCustomers.CreateCustomerModelResponse> __Method_CreateCustomer = new grpc::Method<global::GrpcCustomers.CustomerModelRequest, global::GrpcCustomers.CreateCustomerModelResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "CreateCustomer",
@@ -75,7 +75,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
         __Marshaller_CreateCustomerModelResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake, global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel> __Method_GetAll = new grpc::Method<global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake, global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel>(
+    static readonly grpc::Method<global::GrpcCustomers.CustomerTake, global::GrpcCustomers.ReplyCustomerModel> __Method_GetAll = new grpc::Method<global::GrpcCustomers.CustomerTake, global::GrpcCustomers.ReplyCustomerModel>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetAll",
@@ -85,7 +85,7 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
-      get { return global::Project.BillingProcessing.Customer.Api.Photos.CustomerReflection.Descriptor.Services[0]; }
+      get { return global::GrpcCustomers.CustomerReflection.Descriptor.Services[0]; }
     }
 
     /// <summary>Client for CustomerProtoService</summary>
@@ -116,62 +116,62 @@ namespace Project.BillingProcessing.Customer.Api.Photos {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse GetCustomerByIdentification(global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::GrpcCustomers.CustomerModelResponse GetCustomerByIdentification(global::GrpcCustomers.GetCustomerByIdentificationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetCustomerByIdentification(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse GetCustomerByIdentification(global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest request, grpc::CallOptions options)
+      public virtual global::GrpcCustomers.CustomerModelResponse GetCustomerByIdentification(global::GrpcCustomers.GetCustomerByIdentificationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetCustomerByIdentification, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse> GetCustomerByIdentificationAsync(global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::GrpcCustomers.CustomerModelResponse> GetCustomerByIdentificationAsync(global::GrpcCustomers.GetCustomerByIdentificationRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetCustomerByIdentificationAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelResponse> GetCustomerByIdentificationAsync(global::Project.BillingProcessing.Customer.Api.Photos.GetCustomerByIdentificationRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::GrpcCustomers.CustomerModelResponse> GetCustomerByIdentificationAsync(global::GrpcCustomers.GetCustomerByIdentificationRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetCustomerByIdentification, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse CreateCustomer(global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::GrpcCustomers.CreateCustomerModelResponse CreateCustomer(global::GrpcCustomers.CustomerModelRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateCustomer(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse CreateCustomer(global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest request, grpc::CallOptions options)
+      public virtual global::GrpcCustomers.CreateCustomerModelResponse CreateCustomer(global::GrpcCustomers.CustomerModelRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_CreateCustomer, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse> CreateCustomerAsync(global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::GrpcCustomers.CreateCustomerModelResponse> CreateCustomerAsync(global::GrpcCustomers.CustomerModelRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return CreateCustomerAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Project.BillingProcessing.Customer.Api.Photos.CreateCustomerModelResponse> CreateCustomerAsync(global::Project.BillingProcessing.Customer.Api.Photos.CustomerModelRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::GrpcCustomers.CreateCustomerModelResponse> CreateCustomerAsync(global::GrpcCustomers.CustomerModelRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_CreateCustomer, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel GetAll(global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::GrpcCustomers.ReplyCustomerModel GetAll(global::GrpcCustomers.CustomerTake request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetAll(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel GetAll(global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake request, grpc::CallOptions options)
+      public virtual global::GrpcCustomers.ReplyCustomerModel GetAll(global::GrpcCustomers.CustomerTake request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_GetAll, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel> GetAllAsync(global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::GrpcCustomers.ReplyCustomerModel> GetAllAsync(global::GrpcCustomers.CustomerTake request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return GetAllAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::Project.BillingProcessing.Customer.Api.Photos.ReplyCustomerModel> GetAllAsync(global::Project.BillingProcessing.Customer.Api.Photos.CustomerTake request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::GrpcCustomers.ReplyCustomerModel> GetAllAsync(global::GrpcCustomers.CustomerTake request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetAll, null, options, request);
       }

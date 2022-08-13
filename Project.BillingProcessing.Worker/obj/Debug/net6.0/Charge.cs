@@ -27,21 +27,21 @@ namespace GrpcChargeApi {
             "CgxjaGFyZ2UucHJvdG8SFWNoYXJnZVByb3RvU2VydmljZS5WMRofZ29vZ2xl",
             "L3Byb3RvYnVmL3RpbWVzdGFtcC5wcm90byJEChtHZXRDaGFyZ2VCeVBhcmFt",
             "ZXRlclJlcXVlc3QSFgoOaWRlbnRpZmljYXRpb24YASABKAkSDQoFbW9udGgY",
-            "AyABKAkidQoKQ2hhcmdlTW9kZRIWCg5pZGVudGlmaWNhdGlvbhgBIAEoBRIr",
-            "CgdkdWVEYXRlGAIgASgLMhouZ29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcBIN",
-            "CgVtb250aBgDIAEoCRITCgtDaGFyZ2VWYWx1ZRgEIAEoAiInChRDcmVhdGVD",
-            "aGFyZ2VSZXNwb25zZRIPCgdzdWNjZXNzGAEgASgIMuMBChJDaGFyZ2VQcm90",
-            "b1NlcnZpY2USbQoUR2V0Q2hhcmdlQnlQYXJhbWV0ZXISMi5jaGFyZ2VQcm90",
-            "b1NlcnZpY2UuVjEuR2V0Q2hhcmdlQnlQYXJhbWV0ZXJSZXF1ZXN0GiEuY2hh",
-            "cmdlUHJvdG9TZXJ2aWNlLlYxLkNoYXJnZU1vZGUSXgoMQ3JlYXRlQ2hhcmdl",
-            "EiEuY2hhcmdlUHJvdG9TZXJ2aWNlLlYxLkNoYXJnZU1vZGUaKy5jaGFyZ2VQ",
-            "cm90b1NlcnZpY2UuVjEuQ3JlYXRlQ2hhcmdlUmVzcG9uc2VCEKoCDUdycGND",
-            "aGFyZ2VBcGliBnByb3RvMw=="));
+            "AyABKAkiZwoLQ2hhcmdlTW9kZWwSFgoOaWRlbnRpZmljYXRpb24YASABKAUS",
+            "KwoHZHVlRGF0ZRgCIAEoCzIaLmdvb2dsZS5wcm90b2J1Zi5UaW1lc3RhbXAS",
+            "EwoLQ2hhcmdlVmFsdWUYAyABKAIiJwoUQ3JlYXRlQ2hhcmdlUmVzcG9uc2US",
+            "DwoHc3VjY2VzcxgBIAEoCDLlAQoSQ2hhcmdlUHJvdG9TZXJ2aWNlEm4KFEdl",
+            "dENoYXJnZUJ5UGFyYW1ldGVyEjIuY2hhcmdlUHJvdG9TZXJ2aWNlLlYxLkdl",
+            "dENoYXJnZUJ5UGFyYW1ldGVyUmVxdWVzdBoiLmNoYXJnZVByb3RvU2Vydmlj",
+            "ZS5WMS5DaGFyZ2VNb2RlbBJfCgxDcmVhdGVDaGFyZ2USIi5jaGFyZ2VQcm90",
+            "b1NlcnZpY2UuVjEuQ2hhcmdlTW9kZWwaKy5jaGFyZ2VQcm90b1NlcnZpY2Uu",
+            "VjEuQ3JlYXRlQ2hhcmdlUmVzcG9uc2VCEKoCDUdycGNDaGFyZ2VBcGliBnBy",
+            "b3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcChargeApi.GetChargeByParameterRequest), global::GrpcChargeApi.GetChargeByParameterRequest.Parser, new[]{ "Identification", "Month" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcChargeApi.ChargeMode), global::GrpcChargeApi.ChargeMode.Parser, new[]{ "Identification", "DueDate", "Month", "ChargeValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::GrpcChargeApi.ChargeModel), global::GrpcChargeApi.ChargeModel.Parser, new[]{ "Identification", "DueDate", "ChargeValue" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::GrpcChargeApi.CreateChargeResponse), global::GrpcChargeApi.CreateChargeResponse.Parser, new[]{ "Success" }, null, null, null, null)
           }));
     }
@@ -257,15 +257,15 @@ namespace GrpcChargeApi {
 
   }
 
-  public sealed partial class ChargeMode : pb::IMessage<ChargeMode>
+  public sealed partial class ChargeModel : pb::IMessage<ChargeModel>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<ChargeMode> _parser = new pb::MessageParser<ChargeMode>(() => new ChargeMode());
+    private static readonly pb::MessageParser<ChargeModel> _parser = new pb::MessageParser<ChargeModel>(() => new ChargeModel());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ChargeMode> Parser { get { return _parser; } }
+    public static pb::MessageParser<ChargeModel> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -278,24 +278,23 @@ namespace GrpcChargeApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ChargeMode() {
+    public ChargeModel() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ChargeMode(ChargeMode other) : this() {
+    public ChargeModel(ChargeModel other) : this() {
       identification_ = other.identification_;
       dueDate_ = other.dueDate_ != null ? other.dueDate_.Clone() : null;
-      month_ = other.month_;
       chargeValue_ = other.chargeValue_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ChargeMode Clone() {
-      return new ChargeMode(this);
+    public ChargeModel Clone() {
+      return new ChargeModel(this);
     }
 
     /// <summary>Field number for the "identification" field.</summary>
@@ -320,19 +319,8 @@ namespace GrpcChargeApi {
       }
     }
 
-    /// <summary>Field number for the "month" field.</summary>
-    public const int MonthFieldNumber = 3;
-    private string month_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public string Month {
-      get { return month_; }
-      set {
-        month_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
     /// <summary>Field number for the "ChargeValue" field.</summary>
-    public const int ChargeValueFieldNumber = 4;
+    public const int ChargeValueFieldNumber = 3;
     private float chargeValue_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float ChargeValue {
@@ -344,11 +332,11 @@ namespace GrpcChargeApi {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as ChargeMode);
+      return Equals(other as ChargeModel);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ChargeMode other) {
+    public bool Equals(ChargeModel other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -357,7 +345,6 @@ namespace GrpcChargeApi {
       }
       if (Identification != other.Identification) return false;
       if (!object.Equals(DueDate, other.DueDate)) return false;
-      if (Month != other.Month) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ChargeValue, other.ChargeValue)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -367,7 +354,6 @@ namespace GrpcChargeApi {
       int hash = 1;
       if (Identification != 0) hash ^= Identification.GetHashCode();
       if (dueDate_ != null) hash ^= DueDate.GetHashCode();
-      if (Month.Length != 0) hash ^= Month.GetHashCode();
       if (ChargeValue != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ChargeValue);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -393,12 +379,8 @@ namespace GrpcChargeApi {
         output.WriteRawTag(18);
         output.WriteMessage(DueDate);
       }
-      if (Month.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Month);
-      }
       if (ChargeValue != 0F) {
-        output.WriteRawTag(37);
+        output.WriteRawTag(29);
         output.WriteFloat(ChargeValue);
       }
       if (_unknownFields != null) {
@@ -418,12 +400,8 @@ namespace GrpcChargeApi {
         output.WriteRawTag(18);
         output.WriteMessage(DueDate);
       }
-      if (Month.Length != 0) {
-        output.WriteRawTag(26);
-        output.WriteString(Month);
-      }
       if (ChargeValue != 0F) {
-        output.WriteRawTag(37);
+        output.WriteRawTag(29);
         output.WriteFloat(ChargeValue);
       }
       if (_unknownFields != null) {
@@ -441,9 +419,6 @@ namespace GrpcChargeApi {
       if (dueDate_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(DueDate);
       }
-      if (Month.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Month);
-      }
       if (ChargeValue != 0F) {
         size += 1 + 4;
       }
@@ -454,7 +429,7 @@ namespace GrpcChargeApi {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ChargeMode other) {
+    public void MergeFrom(ChargeModel other) {
       if (other == null) {
         return;
       }
@@ -466,9 +441,6 @@ namespace GrpcChargeApi {
           DueDate = new global::Google.Protobuf.WellKnownTypes.Timestamp();
         }
         DueDate.MergeFrom(other.DueDate);
-      }
-      if (other.Month.Length != 0) {
-        Month = other.Month;
       }
       if (other.ChargeValue != 0F) {
         ChargeValue = other.ChargeValue;
@@ -498,11 +470,7 @@ namespace GrpcChargeApi {
             input.ReadMessage(DueDate);
             break;
           }
-          case 26: {
-            Month = input.ReadString();
-            break;
-          }
-          case 37: {
+          case 29: {
             ChargeValue = input.ReadFloat();
             break;
           }
@@ -531,11 +499,7 @@ namespace GrpcChargeApi {
             input.ReadMessage(DueDate);
             break;
           }
-          case 26: {
-            Month = input.ReadString();
-            break;
-          }
-          case 37: {
+          case 29: {
             ChargeValue = input.ReadFloat();
             break;
           }

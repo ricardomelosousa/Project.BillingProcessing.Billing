@@ -1,1 +1,0 @@
-﻿global using Project.BillingProcessing.Api.EventBus.Events;
